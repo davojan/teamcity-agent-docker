@@ -1,4 +1,4 @@
-FROM klikatech/teamcity-agent-base
+FROM davojan/teamcity-agent-base
 
 MAINTAINER davojan
 
