@@ -5,6 +5,7 @@ This is the JetBrains TeamCity build agent image bundled with a number of build 
 * Node
 * Bower
 * Grunt
+* Yarn
 * build-essential
 * Docker client
 * zip

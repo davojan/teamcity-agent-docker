@@ -1,4 +1,4 @@
-FROM davojan/teamcity-agent-base
+FROM procraft/teamcity-agent-base
 
 MAINTAINER davojan
 
@@ -16,6 +16,7 @@ RUN apt-get update \
 	&& npm install -g npm@next \
 	&& npm install -g bower \
 	&& npm install -g grunt-cli \
+	&& npm install -g yarn \
 	&& curl -sSL https://get.docker.com/ | sh \
 	&& pip install awscli Sphinx guzzle_sphinx_theme \
 	&& apt-get -y autoremove && apt-get clean \
