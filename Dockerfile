@@ -17,6 +17,7 @@ RUN apt-get update \
 	&& npm install -g bower \
 	&& npm install -g grunt-cli \
 	&& npm install -g yarn \
+	&& npm install -g coffee \
 	&& curl -sSL https://get.docker.com/ | sh \
 	&& pip install awscli Sphinx guzzle_sphinx_theme \
 	&& apt-get -y autoremove && apt-get clean \
